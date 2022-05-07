@@ -1,6 +1,6 @@
 
 project_name: Ansible_Project
-template_name: CSRs_NTP_SNMP
+template_name: csrs_ntp_snmp
 filter: device_family
 filter_value: Cisco Cloud Services Router 1000V
 cli_template: |
