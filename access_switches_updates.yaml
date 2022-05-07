@@ -1,6 +1,6 @@
 
 project_name: Ansible_Project
-template_name: access_switches_NTP_SNMP
+template_name: access_switches_ntp_snmp
 filter: role
 filter_value: ACCESS
 cli_template: |
