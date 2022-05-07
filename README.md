@@ -1,6 +1,6 @@
 # Cisco DNA Center Templates
 
-This repo will be used for the proof of concept Cisco DNA Center GitOps operations.
+This repo will be used for the proof of concept Cisco DNA Center GitOps demo.
 
 Users will create new YAML files using these requirements: 
 
