@@ -1,0 +1,12 @@
+
+project_name: Ansible_Project
+template_name: access_switches_NTP_SNMP
+filter: role
+filter_value: ACCESS
+cli_template: |
+  !
+  no snmp-server host 10.93.135.30 version 2c RO
+  no snmp-server host 10.93.130.50 version 2c RW
+  !
+  ntp server 171.68.48.78
+  no ntp server 171.68.48.80
