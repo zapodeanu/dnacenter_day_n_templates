@@ -26,7 +26,7 @@ Sample files:
 ```yaml
 
 project_name: Ansible_Project
-template_name: Ansible_Template
+template_name: csr_updates
 filter: device_family
 filter_value: Cisco Cloud Services Router 1000V
 cli_template: |
@@ -42,15 +42,15 @@ cli_template: |
 ```yaml
 
 project_name: Ansible_Project
-template_name: Ansible_Template
+template_name: access_switches_logging
 filter: role
 filter_value: ACCESS
 cli_template: |
   !
-  no snmp-server host 10.93.135.30 version 2c RO
-  no snmp-server host 10.93.130.50 version 2c RW
+  logging host 10.93.141.37
+  logging host 10.93.141.37 transport udp port 8514
   !
-  ntp server 171.68.48.78
-  no ntp server 171.68.48.80
+  service timestamps debug datetime localtime
+  service timestamps log datetime localtime
 
 ```
