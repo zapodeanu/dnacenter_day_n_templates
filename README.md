@@ -26,7 +26,7 @@ Sample files:
 ```yaml
 
 project_name: Ansible_Project
-template_name: csr_updates
+template_name: csr_ntp_snmp
 filter: device_family
 filter_value: Cisco Cloud Services Router 1000V
 cli_template: |
