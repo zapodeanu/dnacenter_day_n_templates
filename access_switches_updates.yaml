@@ -1,7 +1,10 @@
+
 project_name: Ansible_Project
 template_name: access_switches_logging
+
 filter: role
 filter_value: ACCESS
+
 cli_template: |
   !
   logging host 10.93.141.37
