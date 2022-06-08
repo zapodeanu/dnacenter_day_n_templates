@@ -1,8 +1,10 @@
 
 project_name: Ansible_Project
 template_name: csrs_ntp_snmp
+
 filter: device_family
 filter_value: Cisco Cloud Services Router 1000V
+
 cli_template: |
   !
   no snmp-server host 10.93.135.30 version 2c RO
