@@ -10,4 +10,4 @@ cli_template: |
   no snmp-server host 10.93.141.30 version 2c RO
   no snmp-server host 10.93.130.50 version 2c RW
   !
-  ip name-server 171.70.168.183 171.70.170.170 208.67.222.222
+
